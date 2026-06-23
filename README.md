@@ -1,36 +1,31 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# BusinessSkillForger
 
-## Getting Started
+## 概要
+ビジネスパーソン・エンジニアのための思考力・コミュニケーション・マインドセットを鍛えるトレーニングアプリです。
+AIがお題を出し、回答を採点・フィードバックすることで、実践的にスキルを向上させることができます。
+インプットモードで知識を学び、トレーニングモードで実践練習できる構成になっています。
 
-First, run the development server:
+## 主な機能
+- 思考力トレーニング: 単純思考力・ビジネス思考力・IT思考力の3カテゴリで思考フレームワークを学習・実践
+- コミュニケーション道場: 雑談・会議での発言・質問力・ユーモアの4カテゴリで対話スキルを練習
+- マインドセット: 成長のための考え方・名言・今日のアクション・チェックリストを毎日提供
+- インプットモード: フレームワークやテクニックの解説・例文・やるべきこと/やってはいけないことを学習
+- トレーニングモード: AIが出すお題に回答し、100点満点で採点・良かった点・改善点・模範解答のフィードバックを取得
+- AI評価: 回答に対してスコア・具体的なフィードバック・より良い回答例を自動生成
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+## 使い方
+1. ホーム画面から鍛えたいスキル（思考力/コミュニケーション/マインドセット）を選択
+2. カテゴリタブで具体的な分野を選択
+3. インプットモードで「新しいフレームワークを学ぶ」または「テクニックを学ぶ」をクリック
+4. トレーニングモードに切り替えて「お題を出す」または「シナリオ開始」をクリック
+5. お題に対して回答を入力し、「AIに評価してもらう」をクリック
+6. フィードバック（スコア・良かった点・改善点・模範解答）を確認して次の練習へ
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+## 技術スタック
+- **フレームワーク**: Next.js 16 (React 19)
+- **言語**: JavaScript
+- **AI**: Groq API (Llama 3.3 70B)
+- **ホスティング**: Netlify
 
-You can start editing the page by modifying `app/page.js`. The page auto-updates as you edit the file.
-
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
-
-## Learn More
-
-To learn more about Next.js, take a look at the following resources:
-
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+## URL
+https://6a337dca671c8e6ff9e38e82--iridescent-khapse-355ce3.netlify.app/
